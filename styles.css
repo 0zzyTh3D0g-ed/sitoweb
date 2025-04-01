@@ -1,0 +1,243 @@
+/* Impostazioni di base */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Barra di navigazione fissa */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    z-index: 100;
+}
+
+.navbar .logo {
+    font-size: 2.5em;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4em;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #007BFF;
+}
+
+/* Sezione Hero */
+.hero {
+    background: url('cava-ispica.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 200px 20px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.hero p {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.hero .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sezione Storia */
+.content-section {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.timeline {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.timeline-item {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 10px;
+    transform: scale(1); /* All'inizio, gli elementi sono al loro normale zoom */
+    transition: transform 0.4s ease;
+}
+
+.timeline-item h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.timeline-item p {
+    font-size: 1.2em;
+}
+
+/* Galleria */
+.gallery {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+}
+
+.gallery-images {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.gallery-images img {
+    width: 35%;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: transform 0.4s ease;
+}
+
+/* Sezione Video */
+#video {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Sezione Mappa */
+#video iframe {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 600px;
+}
+
+
+/* Form Contatti */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+input, textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.3em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.2em;
+}
+
+/* Animazioni per lo scroll */
+.timeline-item, .gallery-images img {
+    transition: transform 1s ease;
+}
+
+.hero1{
+    background: url('herostoria.jpg') no-repeat center center/cover;
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 200px 20px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero1 h1 {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.hero1 p {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.hero1 .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero2{
+    background: url('sfonhero.jpg') no-repeat center center/cover;
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 200px 20px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero2 h1 {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.hero2 p {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.hero2 .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 5px;
+}
