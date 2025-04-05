@@ -24,6 +24,35 @@ h1, h2, h3 {
     z-index: 100;
 }
 
+.hero4{
+    background: url('tour.jpg') no-repeat center center/cover;
+    align-content: center;
+    color: white;
+    text-align: center;
+    padding: 200px 20px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero4 h1 {
+    font-size: 4em;
+    margin-bottom: 30px;
+}
+
+.hero4 p {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.hero4 .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 .navbar .logo {
     font-size: 2.5em;
     font-family: 'Merriweather', serif;
